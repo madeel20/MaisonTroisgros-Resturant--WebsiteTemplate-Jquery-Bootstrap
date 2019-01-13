@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<script src="js/jquery-2.2.3.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+
+<title>HOme -  Maison Troisgros</title>
+<script> 
+$(document).ready(function(){
+	$(".imgdish-div1").click(function(){
+		$("#main-div2").css({"height":"100%","background":"url(pizzas/1.jpg) no-repeat  center","background-size":" cover" });
+	});
+	$(".imgdish-div2").click(function(){
+		$("#main-div2").css({"height":"100%","background":"url(pizzas/2.jpg) no-repeat  center","background-size":" cover" });
+	});
+	$(".imgdish-div3").click(function(){
+		$("#main-div2").css({"height":"100%","background":"url(pizzas/3.jpg) no-repeat  center","background-size":" cover" });
+	});
+	$(".imgdish-div4").click(function(){
+		$("#main-div2").css({"height":"100%","background":"url(pizzas/4.jpg) no-repeat  center","background-size":" cover" });
+	});
+	$(".imgdish-div5").click(function(){
+		$("#main-div2").css({"height":"100%","background":"url(pizzas/5.jpg) no-repeat  center","background-size":" cover" });
+	});
+	$("#closed-img").click(function(){
+		$("#main-div2").css({"height":"0%"});
+		
+		
+	});
+	
+
+});
+</script>
+</head>
+
+<body>
+<div id="main-div2"><a href="#"> <h1> <span id="closed-img" class="glyphicon glyphicon-remove"> </span> </h1> </a></div>
+<div id="main-wrapper">
+<div id="menu-wrapper"> 
+<a href="index.html"><img src="images/logo.png"/></a><ul>
+<a href="index.html"><li id="first"><span class="glyphicon glyphicon-home"></span> Home</li> </a>
+<a href="#"><li>Dishes <span class="glyphicon glyphicon-menu-down"></span>
+<ul> <a href="pizza.html"> <li> Pizzas </li> </a> 
+<a href="#"> <li> French Fries </li> </a> 
+<a href="#"> <li>Dish Name </li> </a> 
+<a href="#"> <li> Dish Name </li> </a> </ul> </li> </a>
+<a href="#"><li> Contact <span class="glyphicon glyphicon-send"></span> </li> </a>
+<a href="#"><li> About <span class="glyphicon glyphicon-question-sign"></span></li> </a> </ul> </div>
+ </div>
+ 
+ <div id="container"> 
+ <h1> All Pizzas </h1>
+ <p> Pizza is a flatbread generally topped with tomato sauce and cheese and baked in an oven. It is commonly topped with a selection of meats, vegetables and condiments.</p> <br />
+ <div id="imgdish-div" ><img src="pizzas/1.jpg"  class="imgdish-div1" /></div>
+ <div id="imgdish-div" class="imgdish-div2" ><img src="pizzas/2.jpg"/></div>
+ <div id="imgdish-div" class="imgdish-div3"><img src="pizzas/3.jpg" /></div>
+ <div id="imgdish-div" class="imgdish-div4"><img src="pizzas/4.jpg" /></div>
+ <div id="imgdish-div" class="imgdish-div5"><img src="pizzas/5.jpg" /></div></div>
+ <div id="footer"> 
+ <ul><h2> List1 </h2> 
+ <li> <a href="#"> Link1 </a></li>
+ <li> <a href="#"> Link2 </a></li>
+ <li> <a href="#"> Link3 </a></li>
+ <li> <a href="#"> Link4 </a></li>
+ <li> <a href="#"> Link5 </a></li></ul>
+  <ul><h2> List1 </h2> 
+ <li> <a href="#"> Link1 </a></li>
+ <li> <a href="#"> Link2 </a></li>
+ <li> <a href="#"> Link3 </a></li>
+ <li> <a href="#"> Link4 </a></li>
+ <li> <a href="#"> Link5 </a></li></ul>
+  <ul><h2> List1 </h2> 
+<li> <a href="#"> Link1 </a></li>
+ <li> <a href="#"> Link2 </a></li>
+ <li> <a href="#"> Link3 </a></li>
+ <li> <a href="#"> Link4 </a></li>
+ <li> <a href="#"> Link5 </a></li></ul>
+ <ul><h2> List4 </h2> 
+ <li> <a href="#"> Link1 </a></li>
+ <li> <a href="#"> Link2 </a></li>
+ <li> <a href="#"> Link3 </a></li>
+ <li> <a href="#"> Link4 </a></li>
+ <li> <a href="#"> Link5 </a></li></ul></div>
+
+</body>
+</html>
